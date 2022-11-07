@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="kotlin.jvm.functions.Function1" />
+
+        <import type="kotlin.Unit" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="model"
+            type="String" />
+    </data>
+
+
+    <!--style="@style/Widget.Material3.Chip.Input"-->
+    <com.google.android.material.chip.Chip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:chipMinHeight="14dp"
+        app:chipStartPadding="0dp"
+        app:chipEndPadding="0dp"
+        app:chipMinTouchTargetSize="14dp"
+        android:layout_margin="2dp"
+        android:text="@{model}" />
+</layout>

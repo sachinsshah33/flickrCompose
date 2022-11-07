@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FlickrCompose</string>
+
+    <string name="screen_photo_details">Photo Details</string>
+    <string name="screen_user_photos">User Photos</string>
+
+    <string name="alert_title_add_tag">Add tag</string>
+    <string name="alert_hint_add_tag">Enter tag</string>
+
+    <string name="hint_enter_username">Enter username</string>
+
+    <string name="back_button">Back</string>
+    <string name="button_add">Add</string>
+
+    <string name="cancel">Cancel</string>
+
+</resources>
